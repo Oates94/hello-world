@@ -1,2 +1,21 @@
 # hello-world
 #this is my first repository
+#my name is Joe Oates and this is my repository
+#uses for loop, decision making, operators and built-in function
+#calculate the average program
+numbers = [15, 20, 35, 45, 55]
+sum = 0
+listsize = len(numbers)
+
+for i in numbers: #loop/iteration runs 5 times because it containts 5 numbers
+    sum = sum + i
+average = sum / listsize
+print("The average calculated is " + str(average))
+
+#odd/even numbers program
+for i in numbers: #decision making within a for loop
+    if i % 2 == 0:
+        print('Even number:', i)
+    else:
+        print('Odd number:', i)
+#CHALLENGE, add a for loop to generate a list of numbers from 9 to 50 divisible by 2
